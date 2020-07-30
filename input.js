@@ -1,4 +1,3 @@
-
 const readline =require("readline"); 
 
 const rl = readline.createInterface({
@@ -13,8 +12,9 @@ const r2 = readline.createInterface({
 rl.question(`What is your name?`,(name)=>{
     r2.question(`What is your quest to seek the holy grail?`, (naswer)=>{ 
         var results = (+name) + (+naswer);
-        console.log(`Hi ${name}" + "Wish you well on your quest ${naswer}`);
+        console.log(`Hi ${name} Wish you well on your quest ${naswer}`);
     });
     rl.close();
 });
     
+
