@@ -15,3 +15,6 @@ const addFull = (ev)=>{
 document.addEventListener('DOMContentLoaded', ()=>{
     document.getElementById('btn').addEventListener('click', addFull);
 });
+
+
+
