@@ -6,7 +6,8 @@ button.addEventListener("click", function() {
     }, 3000);
     });
 
-    Promise.resolve().then(r =>console.log("resolved"));
+
+     Promise.resolve().then(() =>console.log("resolved"));
 
     const cancelButton = document.getElementById("cancelTimeDelay");
     let msgTimeout = null;
