@@ -1,4 +1,4 @@
-let allNames = [];
+/*let allNames = [];
 const addFull = (ev)=>{
     ev.preventDefault();
     let fullName = {
@@ -14,7 +14,13 @@ const addFull = (ev)=>{
 };
 document.addEventListener('DOMContentLoaded', ()=>{
     document.getElementById('btn').addEventListener('click', addFull);
-});
+});*/
 
+var fs = require('fs');
+
+fs.readFile( 'mainuser.txt','utf8', function(err, data){
+    if(err) throw err;
+console.log(data);
+});
 
 
