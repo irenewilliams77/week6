@@ -1,0 +1,26 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "editting.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irenewilliams77/week6.git"
+  },
+  "keywords": [],
+  "author": "Irene Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irenewilliams77/week6/issues"
+  },
+  "homepage": "https://github.com/irenewilliams77/week6#readme",
+  "dependencies": {
+    "log-timestamp": "^0.3.0",
+    "text-file-follower": "^0.1.0"
+  },
+  "devDependencies": {}
+}
